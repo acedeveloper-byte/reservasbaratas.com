@@ -65,7 +65,7 @@ Trending Trains is your one-stop platform to compare train rides and book the lo
       {/* Copyright */}
       <div className="text-center p-4 bg-light" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2025 Copyright:
-        <a className="text-reset fw-bold" href="/"> Trendingtrains.com</a>
+        <a className="text-reset fw-bold" href="/"> reservasbaratas.com</a>
       </div>
     </footer>
   )

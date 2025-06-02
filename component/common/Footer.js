@@ -44,8 +44,10 @@ const Footer = () => {
 
             <Col md={3} lg={2} xl={2} className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Legal</h6>
-              <p><a href="/privacy-policy" className="text-reset">política de privacidad</a></p>
-              <p><a href="/terms-and-conditions" className="text-reset">Términos y condiciones</a></p>
+              <p><a href="/politica-de-privacidad" className="text-reset">politica de privacidad</a></p>
+              <p><a href="/politica-de-cancelacion" className="text-reset">politica de cancelacion</a></p>
+              <p><a href="/terminos-y-condiciones" className="text-reset">terminos-y-condiciones</a></p>
+             
               {/* <p><a href="#!" className="text-reset">Orders</a></p>
               <p><a href="#!" className="text-reset">Help</a></p> */}
             </Col>

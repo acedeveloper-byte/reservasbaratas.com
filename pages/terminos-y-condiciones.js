@@ -8,7 +8,7 @@ import React from 'react'
 const términos = () => {
   return (
     <>
-            <Seo />
+            <Seo title={"Términos y condiciones | reservasbaratas"} description={"Términos y condiciones"} />
             <Screen>
                 <Breadcrumb main ="Home" page="Términos y condiciones" link="/" background={"/images/home-poster.jpg"} />
 

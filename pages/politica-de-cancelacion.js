@@ -6,7 +6,7 @@ import React from 'react'
 const politicadecancelacion = () => {
     return (
         <>
-            <Seo />
+            <Seo title={"Política de Cancelación | reservasbaratas"} description={"Política de Cancelación"}  />
             <Screen>
                 <Breadcrumb main="Home" page="Política de Cancelación" link="/" background={"/images/home-poster.jpg"} />
                 <section className='p-5'>

@@ -6,7 +6,7 @@ import React from 'react'
 const aviso = () => {
   return (
     <>
-            <Seo />
+            <Seo  title={"Aviso Legal | reservasbaratas"} description={"Aviso Legal"}/>
                     <Screen>
                         <Breadcrumb main ="Home" page="Aviso Legal" link="/" background={"/images/home-poster.jpg"} />
 

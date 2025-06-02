@@ -6,7 +6,7 @@ import React from 'react'
 const politica = () => {
   return (
     <>
-            <Seo />
+            <Seo  title={"Política de Privacidad | reservasbaratas"} description={"Política de Privacidad"}/>
             <Screen>
           <Breadcrumb main ="Home" page="Política de Privacidad" link="/" background={"/images/home-poster.jpg"} />
                 <section className='p-5'>

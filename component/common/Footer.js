@@ -35,9 +35,9 @@ const Footer = () => {
             </Col>
 
             <Col md={2} lg={2} xl={2} className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Acerca de los trenes de tendencia</h6>
-              <p><a href="/about-us" className="text-reset">Sobre nosotras</a></p>
-              <p><a href="/contact-us" className="text-reset">Contacta</a></p>
+              <h6 className="text-uppercase fw-bold mb-4">Acerca de reservasbaratas</h6>
+              <p><a href="#" className="text-reset">Sobre nosotras</a></p>
+              <p><a href="/contacto" className="text-reset">Contacta</a></p>
               {/* <p><a href="#!" className="text-reset">Vue</a></p>
               <p><a href="#!" className="text-reset">Laravel</a></p> */}
             </Col>

@@ -30,31 +30,30 @@ const Footer = () => {
               </h6>
               <p>
                
-Trending Trains is your one-stop platform to compare train rides and book the lowest fare for you. Contact us today to book the best fare for you.
 
               </p>
             </Col>
 
             <Col md={2} lg={2} xl={2} className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">About Trending Trains</h6>
-              <p><a href="/about-us" className="text-reset">About Us</a></p>
-              <p><a href="/contact-us" className="text-reset">Contact Us</a></p>
+              <h6 className="text-uppercase fw-bold mb-4">Acerca de los trenes de tendencia</h6>
+              <p><a href="/about-us" className="text-reset">Sobre nosotras</a></p>
+              <p><a href="/contact-us" className="text-reset">Contacta</a></p>
               {/* <p><a href="#!" className="text-reset">Vue</a></p>
               <p><a href="#!" className="text-reset">Laravel</a></p> */}
             </Col>
 
             <Col md={3} lg={2} xl={2} className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Legal</h6>
-              <p><a href="/privacy-policy" className="text-reset">Privacy Policy</a></p>
-              <p><a href="/terms-and-conditions" className="text-reset">Terms and conditions</a></p>
+              <p><a href="/privacy-policy" className="text-reset">política de privacidad</a></p>
+              <p><a href="/terms-and-conditions" className="text-reset">Términos y condiciones</a></p>
               {/* <p><a href="#!" className="text-reset">Orders</a></p>
               <p><a href="#!" className="text-reset">Help</a></p> */}
             </Col>
 
-            <Col md={4} lg={3} xl={3} className="mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+            <Col md={4} lg={4} xl={4} className="mx-auto mb-md-0 mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">Contacto</h6>
               <p><FaHome className="me-2" /> New York, NY 10012, US</p>
-              <p><FaEnvelope className="me-3" /> info@example.com</p>
+              <p><FaEnvelope className="me-3" /> info@reservasbaratas.com</p>
               <p><FaPhone className="me-3" /> + 01 234 567 88</p>
               {/* <p><FaPrint className="me-3" /> + 01 234 567 89</p> */}
             </Col>

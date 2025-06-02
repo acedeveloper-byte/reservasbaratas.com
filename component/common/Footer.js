@@ -55,8 +55,8 @@ const Footer = () => {
             <Col md={4} lg={4} xl={4} className="mx-auto mb-md-0 mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Contacto</h6>
               <p><FaHome className="me-2" /> New York, NY 10012, US</p>
-              <p><FaEnvelope className="me-3" /> info@reservasbaratas.com</p>
-              <p><FaPhone className="me-3" /> + 01 234 567 88</p>
+              <p><FaEnvelope className="me-3" /> support@reservasbaratas.com</p>
+              <p> <a href="tel:+1(855) 754-6011" className='text-decoration-none text-black'><FaPhone className="me-3" /> +1(855) 754-6011</a></p>
               {/* <p><FaPrint className="me-3" /> + 01 234 567 89</p> */}
             </Col>
           </Row>

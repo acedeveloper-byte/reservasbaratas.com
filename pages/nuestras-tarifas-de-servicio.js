@@ -116,7 +116,7 @@ export const  html = `<p><strong><span style="font-size:16pt;font-family:Cambria
 <p><span style="font-size:13pt;font-family:Cambria,serif;">Nos comprometemos a ofrecer una total transparencia en los precios. Siempre podr&aacute; consultar el coste total de su reserva, incluyendo todos los cargos por servicio, antes de finalizar la compra.</span></p>
 <p><br></p>
 <h3><span style="color:#434343;font-size:13.999999999999998pt;font-family:Arial,sans-serif;">&iquest;Tiene alguna pregunta?</span></h3>
-<p><span style="font-size:13pt;font-family:Cambria,serif;">Si tiene alguna pregunta sobre tarifas, cargos o pol&iacute;ticas, no dude en contactarnos en&nbsp;</span><strong><span style="font-size:13pt;font-family:Cambria,serif;">XXXX</span></strong><span style="font-size:13pt;font-family:Cambria,serif;">.</span></p>
+<p><span style="font-size:13pt;font-family:Cambria,serif;">Si tiene alguna pregunta sobre tarifas, cargos o pol&iacute;ticas, no dude en contactarnos en&nbsp;</span><strong><span style="font-size:13pt;font-family:Cambria,serif;">support@reservasbaratas.com</span></strong><span style="font-size:13pt;font-family:Cambria,serif;">.</span></p>
 <p><br></p>
 <p><br></p>
 <p><br></p>

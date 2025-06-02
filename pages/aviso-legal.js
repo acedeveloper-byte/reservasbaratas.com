@@ -78,4 +78,4 @@ export const  html  = `<p><strong><span style="font-size:16pt;font-family:Cambri
 <p><span style="font-size:13pt;font-family:Cambria,serif;">Nos reservamos el derecho a actualizar o modificar este Aviso Legal en cualquier momento sin previo aviso. La versi&oacute;n actualizada se publicar&aacute; en esta p&aacute;gina con la nueva fecha de entrada en vigor. El uso continuado del sitio despu&eacute;s de los cambios implica su aceptaci&oacute;n.</span></p>
 <h3><span style="color:#434343;font-size:13.999999999999998pt;font-family:Arial,sans-serif;">7. Cont&aacute;ctenos</span></h3>
 <p><span style="font-size:13pt;font-family:Cambria,serif;">Si tiene alguna pregunta sobre este Aviso Legal, cont&aacute;ctenos en:</span></p>
-<p><span style="font-size:13pt;font-family:Cambria,serif;">XXXXX</span></p>`
+<p><span style="font-size:13pt;font-family:Cambria,serif;">support@reservasbaratas.com</span></p>`

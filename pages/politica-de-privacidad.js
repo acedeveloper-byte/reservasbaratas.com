@@ -131,7 +131,7 @@ export const  html  = `<p><span style="font-size:13pt;font-family:Cambria,serif;
         <p><span style="font-size:13pt;font-family:Cambria,serif;">Solicitar una copia de sus datos almacenados</span></p>
     </li>
 </ul>
-<p><span style="font-size:13pt;font-family:Cambria,serif;">Para ejercer cualquiera de estos derechos, cont&aacute;ctenos en XXXX.</span></p>
+<p><span style="font-size:13pt;font-family:Cambria,serif;">Para ejercer cualquiera de estos derechos, cont&aacute;ctenos en support@reservasbaratas.com.</span></p>
 <h3><span style="color:#434343;font-size:13.999999999999998pt;font-family:Arial,sans-serif;">7. Enlaces de terceros</span></h3>
 <p><span style="font-size:13pt;font-family:Cambria,serif;">Reservas Baratas puede contener enlaces a sitios web de terceros. No nos hacemos responsables de sus pr&aacute;cticas de privacidad ni de su contenido. Por favor, revise sus pol&iacute;ticas antes de enviar informaci&oacute;n personal.</span></p>
 <h3><span style="color:#434343;font-size:13.999999999999998pt;font-family:Arial,sans-serif;">8. Cambios a esta Pol&iacute;tica</span></h3>

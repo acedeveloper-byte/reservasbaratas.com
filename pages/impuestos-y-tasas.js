@@ -72,5 +72,5 @@ export const html =`<p><strong>Impuestos y tasas</strong></p>
 <p><span style="font-weight: 400;">No a&ntilde;adimos cargos ocultos al finalizar la compra. Todos los impuestos y cargos se detallar&aacute;n y mostrar&aacute;n antes de pagar. Sabr&aacute; exactamente qu&eacute; est&aacute; pagando.</span></p>
 <p>&nbsp;</p>
 <h3><span style="font-weight: 400;">&iquest;Necesita ayuda?</span></h3>
-<p><span style="font-weight: 400;">Si tiene alguna pregunta sobre impuestos o cargos espec&iacute;ficos de su reserva, no dude en contactar con nuestro equipo de atenci&oacute;n al cliente en XXXX.</span></p>
+<p><span style="font-weight: 400;">Si tiene alguna pregunta sobre impuestos o cargos espec&iacute;ficos de su reserva, no dude en contactar con nuestro equipo de atenci&oacute;n al cliente en support@reservasbaratas.com.</span></p>
 <p><br /><br /><br /><br /></p>`

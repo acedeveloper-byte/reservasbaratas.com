@@ -154,5 +154,5 @@ export const html = `<p><strong>Tarifas posteriores a la emisi&oacute;n de entra
 </ul>
 <h3><span style="font-weight: 400;">&iquest;Necesitas ayuda?</span></h3>
 <p><span style="font-weight: 400;">Nuestro servicio de atenci&oacute;n al cliente est&aacute; disponible las 24 horas, los 7 d&iacute;as de la semana, para ayudarte con tus solicitudes posteriores a la emisi&oacute;n de tickets. Cont&aacute;ctanos en cualquier momento:</span></p>
-<p><span style="font-weight: 400;">XXXX</span></p>
+<p><span style="font-weight: 400;">support@reservasbaratas.com</span></p>
 <p><br /><br /></p>`

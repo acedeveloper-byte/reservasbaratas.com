@@ -1,74 +1,72 @@
+import React from 'react'
 import Breadcrumb from '@/component/common/Breadcrumb'
 import Screen from '@/component/common/Screen'
 import Seo from '@/component/common/Seo'
-import React from 'react'
 
-const politicadecancelacion = () => {
-    return (
-        <>
-            <Seo title={"Política de Cancelación | reservasbaratas"} description={"Política de Cancelación"}  />
-            <Screen>
-                <Breadcrumb main="Home" page="Política de Cancelación" link="/" background={"/images/home-poster.jpg"} />
-                <section className='p-5'>
-                    <div dangerouslySetInnerHTML={{ __html: html }} />
-                </section>
-            </Screen>
-        </>
-    )
+const html = `
+  <p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;">
+    <span style="font-size:16pt;font-family:Cambria,serif;color:#000000;font-weight:700;">
+      Política de Cancelación
+    </span>
+  </p>
+  <p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;">
+    <span style="font-size:13pt;font-family:Cambria,serif;color:#000000;">
+      Reservas Baratas es una plataforma independiente de búsqueda y reserva de vuelos. No operamos vuelos ni estamos asociados con ninguna aerolínea. Todas las reservas son procesadas por aerolíneas externas y se aplican sus políticas de cancelación y reembolso.
+    </span>
+  </p>
+  <p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;">
+    <span style="font-size:13pt;font-family:Cambria,serif;color:#000000;">
+      Tenga en cuenta que cada proveedor tiene sus propias normas con respecto a:
+    </span>
+  </p>
+  <ul style="padding-left: 2rem;">
+    <li>Periodos de cancelación</li>
+    <li>Requisitos para reembolsos</li>
+    <li>Cargos por cambio o nueva reserva</li>
+    <li>Condiciones de no reembolso de boletos</li>
+  </ul>
+  <p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;">
+    <span style="font-size:13pt;font-family:Cambria,serif;color:#000000;">
+      Le recomendamos encarecidamente que revise la política de cancelación y reembolso de la aerolínea antes de confirmar su reserva.
+    </span>
+  </p>
+  <h3 style="margin-top:14pt;margin-bottom:4pt;">
+    Key Points:
+  </h3>
+  <ul style="padding-left: 2rem;">
+    <li><strong>Cancellations must be handled directly with the airline</strong> listed in your booking confirmation.</li>
+    <li><strong>Refund eligibility and fees</strong> depend on the fare type and provider’s terms. Some tickets are <strong>non-refundable</strong>.</li>
+    <li><strong>No-shows</strong> may result in loss of ticket value.</li>
+    <li>If a flight is cancelled or changed by the airline, <strong>they will provide options</strong> per their policy (refund, credit, or rebooking).</li>
+    <li><strong>Reservas Baratas does not issue refunds directly</strong> but will assist you in reaching the provider.</li>
+  </ul>
+  <h3 style="margin-top:14pt;margin-bottom:4pt;">
+    How to Cancel a Booking
+  </h3>
+  <ul style="padding-left: 2rem;">
+    <li>Follow the cancellation link or instructions provided in your confirmation email.</li>
+    <li>Get in touch with our experts with your booking details to seek their assistance with the cancellation procedure.</li>
+    <li>Always review the provider’s terms to understand cancellation fees or refund limits.</li>
+  </ul>
+`;
+
+const PoliticaDeCancelacion = () => {
+  return (
+    <>
+      <Seo title="Política de Cancelación | reservasbaratas" description="Política de Cancelación" />
+      <Screen>
+        <Breadcrumb
+          main="Home"
+          page="Política de Cancelación"
+          link="/"
+          background="/images/home-poster.jpg"
+        />
+        <section className="p-5">
+          <div dangerouslySetInnerHTML={{ __html: html }} />
+        </section>
+      </Screen>
+    </>
+  )
 }
 
-export default politicadecancelacion
-
-
-export const html = `<p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:16pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Pol&iacute;tica de Cancelaci&oacute;n</span></p>
-<p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Reservas Baratas es una plataforma independiente de b&uacute;squeda y reserva de vuelos. No operamos vuelos ni estamos asociados con ninguna aerol&iacute;nea. Todas las reservas son procesadas por aerol&iacute;neas externas y se aplican sus pol&iacute;ticas de cancelaci&oacute;n y reembolso.</span></p>
-<p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Tenga en cuenta que cada proveedor tiene sus propias normas con respecto a:</span></p>
-<ul style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
-    <li dir="ltr" style="list-style-type:disc;font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="1">
-        <p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:0pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Periodos de cancelaci&oacute;n</span></p>
-    </li>
-    <li dir="ltr" style="list-style-type:disc;font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="1">
-        <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Requisitos para reembolsos</span></p>
-    </li>
-    <li dir="ltr" style="list-style-type:disc;font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="1">
-        <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Cargos por cambio o nueva reserva</span></p>
-    </li>
-    <li dir="ltr" style="list-style-type:disc;font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="1">
-        <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:12pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Condiciones de no reembolso de boletos</span></p>
-    </li>
-</ul>
-<p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Le recomendamos encarecidamente que revise la pol&iacute;tica de cancelaci&oacute;n y reembolso de la aerol&iacute;nea antes de confirmar su reserva.</span></p>
-<h3 dir="ltr" style="line-height:1.38;margin-top:14pt;margin-bottom:4pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Key Points:</span></h3>
-<ul style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
-    <li dir="ltr" style="list-style-type:disc;font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="1">
-        <p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:0pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Cancellations must be handled directly with the airline</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;listed in your booking confirmation.</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><br></span></p>
-    </li>
-    <li dir="ltr" style="list-style-type:disc;font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="1">
-        <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Refund eligibility and fees</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;depend on the fare type and provider&rsquo;s terms. Some tickets are&nbsp;</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">non-refundable</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">.</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><br></span></p>
-    </li>
-    <li dir="ltr" style="list-style-type:disc;font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="1">
-        <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">No-shows</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;may result in loss of ticket value.</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><br></span></p>
-    </li>
-    <li dir="ltr" style="list-style-type:disc;font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="1">
-        <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">If a flight is cancelled or changed by the airline,&nbsp;</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">they will provide options</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;per their policy (refund, credit, or rebooking).</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><br></span></p>
-    </li>
-    <li dir="ltr" style="list-style-type:disc;font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="1">
-        <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:12pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Reservas Baratas does not issue refunds directly</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;but will assist you in reaching the provider.</span></p>
-    </li>
-</ul>
-<h3 dir="ltr" style="line-height:1.38;margin-top:14pt;margin-bottom:4pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;How to Cancel a Booking</span></h3>
-<p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">To cancel a flight booking:</span></p>
-<ul style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
-    <li dir="ltr" style="list-style-type:disc;font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="1">
-        <p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:0pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Follow the cancellation link or instructions provided in your confirmation email.</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><br></span></p>
-    </li>
-    <li dir="ltr" style="list-style-type:disc;font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="1">
-        <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Get in touch with our experts with your booking details to seek their assistance with the cancellation procedure.</span></p>
-    </li>
-    <li dir="ltr" style="list-style-type:disc;font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="1">
-        <p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:12pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">You can also visit our site to confirm your flight cancellation on the go.&nbsp;</span></p>
-    </li>
-</ul>
-<p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">For questions, contact:</span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><br></span><span style="font-size:13pt;font-family:Cambria,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">support@reservasbaratas.com</span></p>
-<p><br></p>
-<p><br></p>`
+export default PoliticaDeCancelacion

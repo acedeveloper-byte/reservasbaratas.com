@@ -26,7 +26,7 @@ const Footer = () => {
           <Row className="mt-3">
             <Col md={3} lg={4} xl={3} className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
-       <img src="/assets/logo/tending-tickets.png"  className="logo-img" />
+       <img src="/images/logo/logo.png"  className="logo-img" />
               </h6>
               <p>
                

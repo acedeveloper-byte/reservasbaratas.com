@@ -19,7 +19,6 @@ const FlightCountries = () => {
       'Vuelos a Israel',
       'Vuelos a Colombia',
       'Vuelos a Egipto',
-      'Flights to Brazil',
     ],
     [
       'Vuelos a Canadá',

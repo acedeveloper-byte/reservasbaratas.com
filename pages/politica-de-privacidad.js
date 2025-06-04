@@ -4,24 +4,24 @@ import Seo from '@/component/common/Seo'
 import React from 'react'
 
 const politica = () => {
-  return (
-    <>
-            <Seo  title={"Política de Privacidad | reservasbaratas"} description={"Política de Privacidad"}/>
+    return (
+        <>
+            <Seo title={"Política de Privacidad | reservasbaratas"} description={"Política de Privacidad"} />
             <Screen>
-          <Breadcrumb main ="Home" page="Política de Privacidad" link="/" background={"/images/home-poster.jpg"} />
+                <Breadcrumb main="Home" page="Política de Privacidad" link="/" background={"/images/home-poster.jpg"} />
                 <section className='p-5'>
-                            <div  dangerouslySetInnerHTML={{__html :html }}/>
+                    <div dangerouslySetInnerHTML={{ __html: html }} />
                 </section>
             </Screen>
-    </>
-  )
+        </>
+    )
 }
 
 export default politica
 
 
 
-export const  html  = `<p><span style="font-size:13pt;font-family:Cambria,serif;">En Reservas Baratas, su privacidad es importante para nosotros. En esta Pol&iacute;tica de Privacidad, leer&aacute;s c&oacute;mo recopilamos, usamos, compartimos y protegemos tu informaci&oacute;n cuando utilizas www.reservasbaratas.com o utilizas sus servicios.</span></p>
+export const html = `<p><span style="font-size:13pt;font-family:Cambria,serif;">En Reservas Baratas, su privacidad es importante para nosotros. En esta Pol&iacute;tica de Privacidad, leer&aacute;s c&oacute;mo recopilamos, usamos, compartimos y protegemos tu informaci&oacute;n cuando utilizas www.reservasbaratas.com o utilizas sus servicios.</span></p>
 <p><span style="font-size:13pt;font-family:Cambria,serif;">Al acceder o usar reservasbaratas.com, usted acepta esta Pol&iacute;tica de En esta Pol&iacute;tica de Privacidad, leer&aacute;s c&oacute;mo recopilamos, usamos, compartimos y protegemos tu informaci&oacute;n cuando utilizas www.reservasbaratas.com o utilizas sus servicios.</span></p>
 <h3><span style="color:#434343;font-size:13.999999999999998pt;font-family:Arial,sans-serif;">1. Informaci&oacute;n que recopilamos</span></h3>
 <p><span style="font-size:13pt;font-family:Cambria,serif;">Reservas Baratas podr&aacute; recopilar los siguientes datos de los usuarios cuando visiten nuestro sitio web o utilicen nuestros servicios:</span></p>

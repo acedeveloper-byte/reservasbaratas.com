@@ -214,9 +214,12 @@ footer a {
 
 
 .logo-img {
-  max-width: 100%;
+  /* max-width: 100%;
   width: 120px;
-  height: auto;
+  height: auto; */
+      max-width: 100%;
+    width: 213px;
+    height: auto;
 }
 .call-now-banner {
   display: flex;
@@ -231,7 +234,6 @@ footer a {
 }
 
 .call-icon {
- background: #05d328;
     padding: 15px 16px;
     display: flex;
     align-items: center;

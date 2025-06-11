@@ -10,6 +10,8 @@ import Destinations from "@/component/Screens/Home/Destinations";
 import FlightCountries from "@/component/Screens/Home/FlightCountries";
 import LookFlight from "@/component/Screens/Home/LookFlight";
 import SearchEngine from "@/component/Screens/Home/SearchEngine";
+import Features from "@/component/Screens/Home/Features";
+import TravelOffers from "@/component/Screens/Home/TravelOffers";
 
 
 
@@ -27,15 +29,16 @@ export default function Home() {
         <section>
           <Destinations />
         </section>
-        <section>
-          <FlightCountries />
-        </section>
-        <section>
-          <LookFlight />
-        </section>
+       
 
 
+    <section>
+      <Features />
+    </section>
 
+    <section style={{marginTop : "150px"}}>
+      <TravelOffers />
+    </section>
 
 
 

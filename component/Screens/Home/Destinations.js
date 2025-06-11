@@ -73,6 +73,7 @@ const Destinations = () => {
           />
         </Col>
         <Col md={8} className="p-4">
+        
           <h6 className="fw-bold">¿Quieres volar por aún menos?</h6>
           <p className="text-muted">
             Busque nuestras mejores ofertas, rebajas de precios y trucos de viaje.

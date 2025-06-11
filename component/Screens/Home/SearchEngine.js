@@ -7,18 +7,15 @@ const SearchEngine = () => {
   return (
      <div
       style={{
-        backgroundImage: 'url(/images/home-poster.jpg)', 
+        backgroundImage: 'url(/images/banner_images/background.png)', 
       
       }}
       className='home-poster-bg'
     >
-      <div className="overlay" style={{ backgroundColor: 'rgba(0,0,0,0.4)', height: '100%' }}>
-        <Container className="h-100 d-flex flex-column justify-content-center">
+        <Container className="h-100 d-flex flex-column justify-content-center engine">
           <h1 className="display-4 fw-bold mb-4">¡Explora el mundo!</h1>
 
           <Tab.Container defaultActiveKey="vuelos">
-          
-
             <Tab.Content>
               <Tab.Pane eventKey="vuelos">
                 <Form className=" p-3 rounded">
@@ -30,7 +27,7 @@ const SearchEngine = () => {
                       id="round"
                       checked={tripType === 'round'}
                       onChange={() => setTripType('round')}
-                      className='text-white'
+                      
                     />
                     <Form.Check
                       type="radio"
@@ -39,38 +36,38 @@ const SearchEngine = () => {
                       id="oneway"
                       checked={tripType === 'oneway'}
                       onChange={() => setTripType('oneway')}
-                      className='text-white'
+                      
                     />
                   </div>
 
                   <Row className="g-2">
                     <Col md>
                       <Form.Group>
-                        <Form.Label className='text-white'>Origen</Form.Label>
+                        <Form.Label >Origen</Form.Label>
                         <Form.Control type="text" placeholder="Ciudad / Aeropuerto" />
                       </Form.Group>
                     </Col>
                     <Col md>
                       <Form.Group>
-                        <Form.Label className='text-white'>Destino</Form.Label>
+                        <Form.Label >Destino</Form.Label>
                         <Form.Control type="text" placeholder="Ciudad / Aeropuerto" />
                       </Form.Group>
                     </Col>
                     <Col md>
                       <Form.Group>
-                        <Form.Label className='text-white'>Salida</Form.Label>
+                        <Form.Label >Salida</Form.Label>
                         <Form.Control type="date" defaultValue="2025-05-28" />
                       </Form.Group>
                     </Col>
                     <Col md>
                       <Form.Group>
-                        <Form.Label className='text-white'>Retorno</Form.Label>
+                        <Form.Label >Retorno</Form.Label>
                         <Form.Control type="date" defaultValue="2025-06-04" />
                       </Form.Group>
                     </Col>
                     <Col md>
                       <Form.Group>
-                        <Form.Label className='text-white'>Personas, clase</Form.Label>
+                        <Form.Label >Personas, clase</Form.Label>
                         <Form.Control type="text" placeholder="1, Economía" />
                       </Form.Group>
                     </Col>
@@ -83,7 +80,6 @@ const SearchEngine = () => {
             </Tab.Content>
           </Tab.Container>
         </Container>
-      </div>
     </div>
   );
 };

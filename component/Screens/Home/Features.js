@@ -6,29 +6,29 @@ import { Card, Col, Container, Row } from 'react-bootstrap'
 const FEATURES = [
     {
         "id": 1,
-        "title": "Easy & Seamless Bookings",
-        "description": "Book your next train ride with us online or offline within a few minutes.",
-        "icon": "/assets/clipart/train.png"
+        "title": "Mejores precios garantizados",
+        "description": "Comparamos diferentes aerolíneas para encontrar la tarifa más económica y que puedas volar dentro de tu presupuesto.",
+        "icon": "/images/specifications/1.png"
     },
     {
         "id": 2,
-        "title": "Lowest Fares Guaranteed",
-        "description": "We help you find affordable train fares so you can travel at low fares.",
-        "icon": "/assets/clipart/tickets.png"
+        "title": "Destinos en todo el mundo",
+        "description": "Desde destinos nacionales hasta destinos internacionales, te ayudamos a reservar el vuelo de tus sueños.",
+        "icon": "/images/specifications/2.png"
 
     },
     {
         "id": 3,
-        "title": "No Surprises",
-        "description": "We promise clear pricing, secure checkout, and instant ticket delivery",
-        "icon": "/assets/clipart/dollarsign.png"
+        "title": "Ofertas de viaje ilimitadas",
+        "description": "Con nosotros, puedes conseguir ofertas exclusivas en vuelos a diferentes destinos alrededor del mundo.",
+        "icon": "/images/specifications/3.png"
 
     },
     {
         "id": 4,
-        "title": "Nationwide Coverage",
-        "description": "From major cities to scenic small towns, book Amtrak and regional rail in one click.",
-        "icon": "/assets/clipart/call-image.png"
+        "title": "Satisfacción del cliente",
+        "description": "Nuestras plataformas priorizan la satisfacción del cliente ofreciendo servicios premium desde la reserva hasta el aterrizaje.",
+        "icon": "/images/specifications/4.png"
 
     }
 ]
@@ -46,16 +46,13 @@ const Features = () => {
                 <Row>
                     {FEATURES.map((item) =>
                         <Col md={3} className="features">
-
                             <Card>
                                 <a>
-
                                     <Card.Body >
-                                        <Card.Title>
-                                            <img src={item.icon} style={{ width: 50, marginBottom: 20 }} />
+                                        <Card.Title className="text-center" style={{ justifyContent: "center", alignItems: "center", display: "flex", flexDirection: "column" }}>
+                                            <img src={item.icon} style={{ width: 100, marginBottom: 20 }} />
                                             {item.title}</Card.Title>
-                                        <Card.Text >
-
+                                        <Card.Text className="text-center">
                                             {item.description}
                                         </Card.Text>
                                     </Card.Body>

@@ -461,11 +461,9 @@ footer a {
 
 
 @media (max-width: 768px) {
-.engine {
-          padding-top: 113px;
-}
+
 .home-poster-bg {
-height: 100vh;
+height: 150vh;
 
 }
 }

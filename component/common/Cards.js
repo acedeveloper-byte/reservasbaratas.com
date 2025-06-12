@@ -18,7 +18,7 @@ const Cards = ({ image, routeFrom, routeTO, routeFromFull, routeToFull }) => {
       </Card.Body>
 
       <Card.Body>
-        <Button variant="dark" block> <a href="tel:+1(855) 754-6011" className="text-decoration-none text-white">CALL NOW</a></Button>
+        <Button variant="dark" block> <a href="tel:+52 80 0733 4112" className="text-decoration-none text-white">CALL NOW</a></Button>
       </Card.Body>
     </Card>
   );

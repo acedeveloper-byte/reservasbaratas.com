@@ -9,7 +9,7 @@ const CallNowBanner = () => {
       </div>
       <div className="call-text">
         <span className="call-now">CALL US NOW</span>
-        <span className="phone-number"><a href="tel:+1(855) 754-6011" className='text-decoration-none text-white'>+1(855) 754-6011</a></span>
+        <span className="phone-number"><a href="tel:+52 80 0733 4112" className='text-decoration-none text-white'>+52 80 0733 4112</a></span>
       </div>
     </div>
   );

@@ -56,7 +56,7 @@ const Footer = () => {
               <h6 className="text-uppercase fw-bold mb-4">Contacto</h6>
               <p><FaHome className="me-2" /> 3216 Raymond St, Klamath Falls, OR 97603</p>
               <p><FaEnvelope className="me-3" /> support@reservasbaratas.com</p>
-              <p> <a href="tel:+1(855) 754-6011" className='text-decoration-none text-black'><FaPhone className="me-3" /> +1(855) 754-6011</a></p>
+              <p> <a href="tel:+52 80 0733 4112" className='text-decoration-none text-black'><FaPhone className="me-3" /> +52 80 0733 4112</a></p>
               {/* <p><FaPrint className="me-3" /> + 01 234 567 89</p> */}
             </Col>
           </Row>
@@ -71,5 +71,7 @@ const Footer = () => {
     </footer>
   )
 }
+
+
 
 export default Footer

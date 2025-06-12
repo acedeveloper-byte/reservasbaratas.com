@@ -1,7 +1,7 @@
+import Breadcrumb from '@/component/common/Breadcrumb'
 import Screen from '@/component/common/Screen'
 import Seo from '@/component/common/Seo'
 import React from 'react'
-import { Breadcrumb } from 'react-bootstrap'
 
 const sobre = () => {
   return (

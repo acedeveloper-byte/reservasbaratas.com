@@ -45,4 +45,4 @@ export const html =`<p><strong>Descargo de responsabilidad</strong></p>
 <p><span style="font-weight: 400;">Reservas Baratas tiene el derecho exclusivo de cambiar o actualizar este descargo de responsabilidad seg&uacute;n sea necesario sin previo aviso. Es responsabilidad del usuario revisar esta p&aacute;gina peri&oacute;dicamente para comprobar si hay cambios.</span></p>
 <h3><span style="font-weight: 400;">7. Cont&aacute;ctenos</span></h3>
 <p><span style="font-weight: 400;">Si tiene alguna consulta, cont&aacute;ctenos en</span></p>
-<p><span style="font-weight: 400;">XXXXX</span></p>`
+<p><span style="font-weight: 400;">support@reservasbaratas.com</span></p>`

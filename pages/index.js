@@ -1,14 +1,7 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import Seo from "@/component/common/Seo";
 import Screen from "@/component/common/Screen";
-import Breadcrumb from "@/component/common/Breadcrumb";
 import { Col, Container, Row } from "react-bootstrap";
 import Destinations from "@/component/Screens/Home/Destinations";
-import FlightCountries from "@/component/Screens/Home/FlightCountries";
-import LookFlight from "@/component/Screens/Home/LookFlight";
 import SearchEngine from "@/component/Screens/Home/SearchEngine";
 import Features from "@/component/Screens/Home/Features";
 import TravelOffers from "@/component/Screens/Home/TravelOffers";
@@ -23,22 +16,41 @@ export default function Home() {
         {/* <Breadcrumb /> */}
 
         <section>
-          <SearchEngine/>
+          <SearchEngine />
         </section>
 
         <section>
           <Destinations />
         </section>
-       
 
 
-    <section>
-      <Features />
-    </section>
 
-    <section style={{marginTop : "150px"}}>
-      <TravelOffers />
-    </section>
+        <section>
+          <Features />
+        </section>
+        <section style={{  background :"whitesmoke" , padding : "5%" , marginTop : 100}}>
+          <Container>
+            <Row>
+
+              <div>
+
+                <h2> Descargo de responsabilidad </h2>
+              </div>
+
+              <Col>
+                <h5 style={{ fontWeight: "normal" }}>
+                  Reservas Baratas no está afiliada a ninguna aerolínea, proveedor de viajes ni entidad gubernamental.
+                </h5>
+                <h5 style={{ fontWeight: "normal" }}>
+                  Somos un agregador independiente que conecta a los usuarios con ofertas de vuelos, opciones de reserva y servicios relacionados con viajes.
+                </h5>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+        <section style={{ marginTop: "150px" }}>
+          <TravelOffers />
+        </section>
 
 
 
